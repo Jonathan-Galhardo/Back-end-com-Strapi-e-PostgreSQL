@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_section_section_grids",
+  "info": {
+    "displayName": "section_grid",
+    "icon": "dice-four"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 500,
+      "minLength": 5
+    },
+    "text_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.text-grid",
+      "required": true
+    },
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
