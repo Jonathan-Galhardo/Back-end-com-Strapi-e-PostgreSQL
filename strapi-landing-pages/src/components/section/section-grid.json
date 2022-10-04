@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_grids",
   "info": {
     "displayName": "section_grid",
-    "icon": "dice-four"
+    "icon": "dice-four",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,7 +23,7 @@
       "type": "component",
       "repeatable": true,
       "component": "section.text-grid",
-      "required": true
+      "required": false
     },
     "image_grid": {
       "type": "component",

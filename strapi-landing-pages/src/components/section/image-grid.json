@@ -2,17 +2,18 @@
   "collectionName": "components_section_image_grids",
   "info": {
     "displayName": "image_grid",
-    "icon": "grip-horizontal"
+    "icon": "grip-horizontal",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
